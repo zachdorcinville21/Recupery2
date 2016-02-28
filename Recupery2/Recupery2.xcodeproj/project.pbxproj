@@ -20,6 +20,7 @@
 		A53591F61C8269450014EE5C /* Recupery2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591F51C8269450014EE5C /* Recupery2UITests.m */; };
 		A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592041C826ADD0014EE5C /* SurveyViewController.m */; };
 		A53592081C826D2C0014EE5C /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592071C826D2C0014EE5C /* FXForms.m */; };
+		A535920B1C8280770014EE5C /* SurveyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = A535920A1C8280770014EE5C /* SurveyForm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		A53592041C826ADD0014EE5C /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
 		A53592061C826D230014EE5C /* FXForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXForms.h; sourceTree = "<group>"; };
 		A53592071C826D2C0014EE5C /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
+		A53592091C8280770014EE5C /* SurveyForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyForm.h; sourceTree = "<group>"; };
+		A535920A1C8280770014EE5C /* SurveyForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyForm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				A53591D11C8269440014EE5C /* RootViewController.m */,
 				A53592031C826ADD0014EE5C /* SurveyViewController.h */,
 				A53592041C826ADD0014EE5C /* SurveyViewController.m */,
+				A53592091C8280770014EE5C /* SurveyForm.h */,
+				A535920A1C8280770014EE5C /* SurveyForm.m */,
 				A53592061C826D230014EE5C /* FXForms.h */,
 				A53592071C826D2C0014EE5C /* FXForms.m */,
 				A53591D31C8269440014EE5C /* DataViewController.h */,
@@ -300,6 +305,7 @@
 				A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */,
 				A53591D81C8269440014EE5C /* ModelController.m in Sources */,
 				891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */,
+				A535920B1C8280770014EE5C /* SurveyForm.m in Sources */,
 				A53592081C826D2C0014EE5C /* FXForms.m in Sources */,
 				A53591CC1C8269440014EE5C /* main.m in Sources */,
 				A53591D21C8269440014EE5C /* RootViewController.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "SurveyViewController.h"
+#import "SurveyForm.h"
 
 @interface SurveyViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.formController.form = [[SurveyForm alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {

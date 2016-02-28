@@ -21,6 +21,7 @@
 		A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592041C826ADD0014EE5C /* SurveyViewController.m */; };
 		A53592081C826D2C0014EE5C /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592071C826D2C0014EE5C /* FXForms.m */; };
 		A535920B1C8280770014EE5C /* SurveyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = A535920A1C8280770014EE5C /* SurveyForm.m */; };
+		A53592111C836F780014EE5C /* CommunicationOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592101C836F780014EE5C /* CommunicationOptionsViewController.m */; };
 		CC587EC8526DCEE8A0675AD6 /* Pods_Recupery2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EA1329B294EB823B13A11 /* Pods_Recupery2.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		A53592071C826D2C0014EE5C /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
 		A53592091C8280770014EE5C /* SurveyForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyForm.h; sourceTree = "<group>"; };
 		A535920A1C8280770014EE5C /* SurveyForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyForm.m; sourceTree = "<group>"; };
+		A535920F1C836F780014EE5C /* CommunicationOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationOptionsViewController.h; sourceTree = "<group>"; };
+		A53592101C836F780014EE5C /* CommunicationOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationOptionsViewController.m; sourceTree = "<group>"; };
 		CA73DF6F89C51B81B9F9FA99 /* Pods-Recupery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recupery2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Recupery2/Pods-Recupery2.debug.xcconfig"; sourceTree = "<group>"; };
 		F95B71C61CBBF59810F2D0E7 /* Pods-Recupery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recupery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recupery2/Pods-Recupery2.release.xcconfig"; sourceTree = "<group>"; };
 		FA0EA1329B294EB823B13A11 /* Pods_Recupery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recupery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +137,8 @@
 		A53591C91C8269440014EE5C /* Recupery2 */ = {
 			isa = PBXGroup;
 			children = (
+				A535920F1C836F780014EE5C /* CommunicationOptionsViewController.h */,
+				A53592101C836F780014EE5C /* CommunicationOptionsViewController.m */,
 				A53591CD1C8269440014EE5C /* AppDelegate.h */,
 				A53591CE1C8269440014EE5C /* AppDelegate.m */,
 				A53591D01C8269440014EE5C /* RootViewController.h */,
@@ -377,6 +382,7 @@
 			files = (
 				A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */,
 				A53591D51C8269440014EE5C /* DataViewController.m in Sources */,
+				A53592111C836F780014EE5C /* CommunicationOptionsViewController.m in Sources */,
 				A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */,
 				A53591D81C8269440014EE5C /* ModelController.m in Sources */,
 				891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */,

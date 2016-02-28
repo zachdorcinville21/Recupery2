@@ -8,6 +8,7 @@
 
 #import "SurveyViewController.h"
 #import "SurveyForm.h"
+#import "CommunicationOptionsViewController.h"
 
 @interface SurveyViewController ()<FXFormControllerDelegate>
 
@@ -22,6 +23,8 @@
 }
 
 - (void)submitSurvey {
+    CommunicationOptionsViewController *nextPage = [[CommunicationOptionsViewController alloc]init];
+    [self.navigationController pushViewController:nextPage animated:YES];
   
 }
 

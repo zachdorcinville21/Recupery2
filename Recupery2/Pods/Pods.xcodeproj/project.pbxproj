@@ -7,57 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2203E0FCAD0D41ED26BDC5A0A369DEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E5B5FE1317BEFBFB7414CC0F86D82CF1 /* Pods-Recupery2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */; };
+		04D267B0B48099D45E912396F8CA526B /* CircleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D629112448A5DCBD3288226222DB7B92 /* CircleMenu-dummy.m */; };
+		1470BFF6DC1785184C994C3D68D281CD /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27E8B6861911739CFB98A63A84AD /* CircleMenuButton.swift */; };
+		53FF5EF8D90E750D655BC85AB995A175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		638A7EBE01BE26AB55B9046320066100 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497588E514B64E142E097574A0ED3F6A /* CircleMenu.swift */; };
+		649334C5015899B895C017F723508DFD /* CircleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FEDAB306392DE9D207F42E7ABCEBAB /* CircleMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC2431582CF6D666E1DC06786CD90F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A74367C94AF3506FA88507A8FCC39EA7 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415AD6E0AB1B46869BAE328C98424C3 /* CircleMenuLoader.swift */; };
+		BE581075D79CC9DFA43768D481E423DC /* Pods-Recupery2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD020B40306F66A03C2E0F493AC6FBA /* Pods-Recupery2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBDBD4B8D71958DD592787AB3C1E0EC /* Pods-Recupery2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78AD4B464DCC5D9BF2220FBA838953D /* Pods-Recupery2-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6ED037AB17AFD8B49436DBE9DCE36CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27533A6098E2BDD80827924FA8F4E742;
+			remoteInfo = CircleMenu;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		327C3549E39241739B5237B43F6EE9A3 /* Pods-Recupery2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-frameworks.sh"; sourceTree = "<group>"; };
+		0415AD6E0AB1B46869BAE328C98424C3 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuLoader.swift; path = CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift; sourceTree = "<group>"; };
+		20E334775C53C3213AAD1E9013FCBA58 /* CircleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-prefix.pch"; sourceTree = "<group>"; };
+		27F3BA62EEFEF74DC769C4FFEBDBADF2 /* Pods-Recupery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.release.xcconfig"; sourceTree = "<group>"; };
+		383C27E8B6861911739CFB98A63A84AD /* CircleMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuButton.swift; path = CircleMenuLib/CircleMenuButton/CircleMenuButton.swift; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		49C2187CCB8AD2CC5FED5BDF069E1B7E /* Pods-Recupery2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-resources.sh"; sourceTree = "<group>"; };
-		538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.debug.xcconfig"; sourceTree = "<group>"; };
-		73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.release.xcconfig"; sourceTree = "<group>"; };
-		9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recupery2-dummy.m"; sourceTree = "<group>"; };
-		A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recupery2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497588E514B64E142E097574A0ED3F6A /* CircleMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenu.swift; path = CircleMenuLib/CircleMenu.swift; sourceTree = "<group>"; };
+		56FEDAB306392DE9D207F42E7ABCEBAB /* CircleMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-umbrella.h"; sourceTree = "<group>"; };
+		5AD020B40306F66A03C2E0F493AC6FBA /* Pods-Recupery2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Recupery2-umbrella.h"; sourceTree = "<group>"; };
+		6A68BD3442CD9C1E3EE8C8869D2461AA /* CircleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		797945E6DD0AB94C0E4316574E19B76A /* Pods_Recupery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recupery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC969FD71209DF95E9373F39A31FEFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFEB7A9A69F8A6073D1A8CD79A9410 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF33386F9430D55C84983C6225E8ECA /* CircleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleMenu.xcconfig; sourceTree = "<group>"; };
+		A4B18F537E074AB6742D78A9B6CC407B /* Pods-Recupery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.debug.xcconfig"; sourceTree = "<group>"; };
+		A78AD4B464DCC5D9BF2220FBA838953D /* Pods-Recupery2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recupery2-dummy.m"; sourceTree = "<group>"; };
+		A79585654B4FFD7521F83C7BCF6A2540 /* CircleMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CircleMenu.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ED62C9DF1067FDCC8C57F7225D517AF8 /* Pods-Recupery2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recupery2-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9FC915793231318FC30E86A09D6E49C /* Pods-Recupery2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recupery2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FB3F80A63A98E62F429AD97391A3FB0C /* LayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LayerKit.framework; sourceTree = "<group>"; };
+		C9130EE95269D3C327D07D475414967E /* Pods-Recupery2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-resources.sh"; sourceTree = "<group>"; };
+		D629112448A5DCBD3288226222DB7B92 /* CircleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleMenu-dummy.m"; sourceTree = "<group>"; };
+		DDAF8A9284FDC20C3206F07A9EED7AC8 /* Pods-Recupery2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recupery2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1AD0666E2AC63D46732ECE2D43A33F7 /* Pods-Recupery2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Recupery2.modulemap"; sourceTree = "<group>"; };
+		F1F61E17F1324A65AA1997B2318B9FF5 /* Pods-Recupery2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recupery2-acknowledgements.plist"; sourceTree = "<group>"; };
+		F591689AEAA470DA7CD700DB23CE5E36 /* LayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LayerKit.framework; sourceTree = "<group>"; };
+		FE1B9AEFDF7FDA527A16485350839EDB /* Pods-Recupery2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07DF1C3B7CDE1168E549202D787F045E /* Frameworks */ = {
+		DF7E06FB24013686CD05B4926B69D55B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2203E0FCAD0D41ED26BDC5A0A369DEBE /* Foundation.framework in Frameworks */,
+				53FF5EF8D90E750D655BC85AB995A175 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB663CCA004DED63795587E939582B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC2431582CF6D666E1DC06786CD90F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26444AB006DCFD64CD1FE9E2342A70C7 /* Pods-Recupery2 */ = {
+		0606F15DCB4F82B94392FEFEBB0D7D3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9FC915793231318FC30E86A09D6E49C /* Pods-Recupery2-acknowledgements.markdown */,
-				ED62C9DF1067FDCC8C57F7225D517AF8 /* Pods-Recupery2-acknowledgements.plist */,
-				9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */,
-				327C3549E39241739B5237B43F6EE9A3 /* Pods-Recupery2-frameworks.sh */,
-				49C2187CCB8AD2CC5FED5BDF069E1B7E /* Pods-Recupery2-resources.sh */,
-				538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */,
-				73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */,
+				8C684C364083AD817056C1C56D5A1F0D /* CircleMenu */,
+				6FEB999AF1EC9A3A8270616BB706FE5D /* LayerKit */,
 			);
-			name = "Pods-Recupery2";
-			path = "Target Support Files/Pods-Recupery2";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		637127439E719DF025B29226BD8E9783 /* Frameworks */ = {
+		20E749053D1EA3F3CEAAFD20B74F5B14 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB3F80A63A98E62F429AD97391A3FB0C /* LayerKit.framework */,
+				BC0900844EF73997B751AFFFCB168179 /* Pods-Recupery2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CD2457178A4D6B934C0BD31F5616168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F591689AEAA470DA7CD700DB23CE5E36 /* LayerKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FEB999AF1EC9A3A8270616BB706FE5D /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2457178A4D6B934C0BD31F5616168 /* Frameworks */,
+			);
+			path = LayerKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -65,34 +113,48 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AEE6EBA4161F8AB5E29BF1AB57B838C1 /* Pods */,
-				99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */,
-				CBA2C99BFA82BA48CBD4BF0FAE45119F /* Targets Support Files */,
+				0606F15DCB4F82B94392FEFEBB0D7D3B /* Pods */,
+				9968FA4300F22470EDB9508D89BE36F4 /* Products */,
+				20E749053D1EA3F3CEAAFD20B74F5B14 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */ = {
+		8C684C364083AD817056C1C56D5A1F0D /* CircleMenu */ = {
 			isa = PBXGroup;
 			children = (
-				A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */,
+				497588E514B64E142E097574A0ED3F6A /* CircleMenu.swift */,
+				383C27E8B6861911739CFB98A63A84AD /* CircleMenuButton.swift */,
+				0415AD6E0AB1B46869BAE328C98424C3 /* CircleMenuLoader.swift */,
+				BCB7F8B5B041461B95B2982EF1FE336D /* Support Files */,
+			);
+			path = CircleMenu;
+			sourceTree = "<group>";
+		};
+		9968FA4300F22470EDB9508D89BE36F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A68BD3442CD9C1E3EE8C8869D2461AA /* CircleMenu.framework */,
+				797945E6DD0AB94C0E4316574E19B76A /* Pods_Recupery2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C4D6E24DFAE38CEEEEE31D489781096 /* LayerKit */ = {
+		BC0900844EF73997B751AFFFCB168179 /* Pods-Recupery2 */ = {
 			isa = PBXGroup;
 			children = (
-				637127439E719DF025B29226BD8E9783 /* Frameworks */,
+				7EC969FD71209DF95E9373F39A31FEFE /* Info.plist */,
+				F1AD0666E2AC63D46732ECE2D43A33F7 /* Pods-Recupery2.modulemap */,
+				DDAF8A9284FDC20C3206F07A9EED7AC8 /* Pods-Recupery2-acknowledgements.markdown */,
+				F1F61E17F1324A65AA1997B2318B9FF5 /* Pods-Recupery2-acknowledgements.plist */,
+				A78AD4B464DCC5D9BF2220FBA838953D /* Pods-Recupery2-dummy.m */,
+				FE1B9AEFDF7FDA527A16485350839EDB /* Pods-Recupery2-frameworks.sh */,
+				C9130EE95269D3C327D07D475414967E /* Pods-Recupery2-resources.sh */,
+				5AD020B40306F66A03C2E0F493AC6FBA /* Pods-Recupery2-umbrella.h */,
+				A4B18F537E074AB6742D78A9B6CC407B /* Pods-Recupery2.debug.xcconfig */,
+				27F3BA62EEFEF74DC769C4FFEBDBADF2 /* Pods-Recupery2.release.xcconfig */,
 			);
-			path = LayerKit;
-			sourceTree = "<group>";
-		};
-		AEE6EBA4161F8AB5E29BF1AB57B838C1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9C4D6E24DFAE38CEEEEE31D489781096 /* LayerKit */,
-			);
-			name = Pods;
+			name = "Pods-Recupery2";
+			path = "Target Support Files/Pods-Recupery2";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -103,6 +165,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BCB7F8B5B041461B95B2982EF1FE336D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79585654B4FFD7521F83C7BCF6A2540 /* CircleMenu.modulemap */,
+				9CF33386F9430D55C84983C6225E8ECA /* CircleMenu.xcconfig */,
+				D629112448A5DCBD3288226222DB7B92 /* CircleMenu-dummy.m */,
+				20E334775C53C3213AAD1E9013FCBA58 /* CircleMenu-prefix.pch */,
+				56FEDAB306392DE9D207F42E7ABCEBAB /* CircleMenu-umbrella.h */,
+				93AFEB7A9A69F8A6073D1A8CD79A9410 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleMenu";
+			sourceTree = "<group>";
+		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,32 +187,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CBA2C99BFA82BA48CBD4BF0FAE45119F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				26444AB006DCFD64CD1FE9E2342A70C7 /* Pods-Recupery2 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2E803BB50B954FC2BCC87EA278D76FF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE581075D79CC9DFA43768D481E423DC /* Pods-Recupery2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1310F7C59A87712C2C75BB7BD137E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649334C5015899B895C017F723508DFD /* CircleMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		8BE594CA614EACF0141E5465D33FD7D8 /* Pods-Recupery2 */ = {
+		0016A13D80D06A9745642FDCB7115D63 /* Pods-Recupery2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 836BED77BF6B1A8BE46CD351B52845ED /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */;
+			buildConfigurationList = 88F454E641F40930AF214DFD5FF6F4B2 /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */;
 			buildPhases = (
-				548117EB04B5E7560E1E15CEF7E4810A /* Sources */,
-				07DF1C3B7CDE1168E549202D787F045E /* Frameworks */,
+				4C7545DF7A3D3F62040D54652E7C4FC0 /* Sources */,
+				DF7E06FB24013686CD05B4926B69D55B /* Frameworks */,
+				2E803BB50B954FC2BCC87EA278D76FF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B6B39A0BB9B537441D3ABD281A7182 /* PBXTargetDependency */,
+			);
+			name = "Pods-Recupery2";
+			productName = "Pods-Recupery2";
+			productReference = 797945E6DD0AB94C0E4316574E19B76A /* Pods_Recupery2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27533A6098E2BDD80827924FA8F4E742 /* CircleMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A438ED94A7A66926EEA5935B338F0B6 /* Build configuration list for PBXNativeTarget "CircleMenu" */;
+			buildPhases = (
+				99E6B72FADDCBB3E131687356A42AA64 /* Sources */,
+				FB663CCA004DED63795587E939582B91 /* Frameworks */,
+				EB1310F7C59A87712C2C75BB7BD137E2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Recupery2";
-			productName = "Pods-Recupery2";
-			productReference = A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */;
-			productType = "com.apple.product-type.library.static";
+			name = CircleMenu;
+			productName = CircleMenu;
+			productReference = 6A68BD3442CD9C1E3EE8C8869D2461AA /* CircleMenu.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,43 +261,102 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */;
+			productRefGroup = 9968FA4300F22470EDB9508D89BE36F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BE594CA614EACF0141E5465D33FD7D8 /* Pods-Recupery2 */,
+				27533A6098E2BDD80827924FA8F4E742 /* CircleMenu */,
+				0016A13D80D06A9745642FDCB7115D63 /* Pods-Recupery2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		548117EB04B5E7560E1E15CEF7E4810A /* Sources */ = {
+		4C7545DF7A3D3F62040D54652E7C4FC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B5FE1317BEFBFB7414CC0F86D82CF1 /* Pods-Recupery2-dummy.m in Sources */,
+				EEBDBD4B8D71958DD592787AB3C1E0EC /* Pods-Recupery2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E6B72FADDCBB3E131687356A42AA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D267B0B48099D45E912396F8CA526B /* CircleMenu-dummy.m in Sources */,
+				638A7EBE01BE26AB55B9046320066100 /* CircleMenu.swift in Sources */,
+				1470BFF6DC1785184C994C3D68D281CD /* CircleMenuButton.swift in Sources */,
+				A74367C94AF3506FA88507A8FCC39EA7 /* CircleMenuLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A3B6B39A0BB9B537441D3ABD281A7182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleMenu;
+			target = 27533A6098E2BDD80827924FA8F4E742 /* CircleMenu */;
+			targetProxy = 6ED037AB17AFD8B49436DBE9DCE36CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		6C4DD7331CDEA68E7CBA166AECD1D650 /* Release */ = {
+		70F927F1DDD666E8B280603BC14BDB38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */;
+			baseConfigurationReference = 9CF33386F9430D55C84983C6225E8ECA /* CircleMenu.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleMenu/CircleMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CircleMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8AF3FC597909E246308D0C45C5D30BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF33386F9430D55C84983C6225E8ECA /* CircleMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleMenu/CircleMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -232,6 +397,36 @@
 			};
 			name = Debug;
 		};
+		BD887D531C7464038B9AA2401CD970D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F3BA62EEFEF74DC769C4FFEBDBADF2 /* Pods-Recupery2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Recupery2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recupery2/Pods-Recupery2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Recupery2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,26 +461,49 @@
 			};
 			name = Release;
 		};
-		D008E6D08CF501C89DEA87876AA7F6F7 /* Debug */ = {
+		EF7AAE316D52377557EEE510A146ED2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */;
+			baseConfigurationReference = A4B18F537E074AB6742D78A9B6CC407B /* Pods-Recupery2.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Recupery2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recupery2/Pods-Recupery2.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_Recupery2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A438ED94A7A66926EEA5935B338F0B6 /* Build configuration list for PBXNativeTarget "CircleMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF3FC597909E246308D0C45C5D30BCC /* Debug */,
+				70F927F1DDD666E8B280603BC14BDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -295,11 +513,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		836BED77BF6B1A8BE46CD351B52845ED /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */ = {
+		88F454E641F40930AF214DFD5FF6F4B2 /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D008E6D08CF501C89DEA87876AA7F6F7 /* Debug */,
-				6C4DD7331CDEA68E7CBA166AECD1D650 /* Release */,
+				EF7AAE316D52377557EEE510A146ED2E /* Debug */,
+				BD887D531C7464038B9AA2401CD970D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

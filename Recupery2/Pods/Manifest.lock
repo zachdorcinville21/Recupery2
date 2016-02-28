@@ -1,10 +1,13 @@
 PODS:
+  - CircleMenu (0.0.5)
   - LayerKit (0.19.2)
 
 DEPENDENCIES:
+  - CircleMenu (~> 0.0.5)
   - LayerKit
 
 SPEC CHECKSUMS:
+  CircleMenu: bc368a47d767051f3373ee38b8f6d6dbdc1ee8ab
   LayerKit: 8a1fa803bb5f5f515d3cd2b1f94b50b25dc548af
 
 COCOAPODS: 0.39.0

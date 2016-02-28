@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87CD011E5DF67B60A5A9390B /* libPods-Recupery2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53834DA5229A7E96C7D93A6D /* libPods-Recupery2.a */; };
 		891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C7EED1C8276DA00B85DE2 /* CoverScreenViewController.m */; };
 		A53591CC1C8269440014EE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591CB1C8269440014EE5C /* main.m */; };
 		A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591CE1C8269440014EE5C /* AppDelegate.m */; };
@@ -22,6 +21,7 @@
 		A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592041C826ADD0014EE5C /* SurveyViewController.m */; };
 		A53592081C826D2C0014EE5C /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592071C826D2C0014EE5C /* FXForms.m */; };
 		A535920B1C8280770014EE5C /* SurveyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = A535920A1C8280770014EE5C /* SurveyForm.m */; };
+		CC587EC8526DCEE8A0675AD6 /* Pods_Recupery2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EA1329B294EB823B13A11 /* Pods_Recupery2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53834DA5229A7E96C7D93A6D /* libPods-Recupery2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recupery2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		891C7EEC1C8276DA00B85DE2 /* CoverScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverScreenViewController.h; sourceTree = "<group>"; };
 		891C7EED1C8276DA00B85DE2 /* CoverScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverScreenViewController.m; sourceTree = "<group>"; };
 		A53591C71C8269440014EE5C /* Recupery2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recupery2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +72,7 @@
 		A535920A1C8280770014EE5C /* SurveyForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyForm.m; sourceTree = "<group>"; };
 		CA73DF6F89C51B81B9F9FA99 /* Pods-Recupery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recupery2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Recupery2/Pods-Recupery2.debug.xcconfig"; sourceTree = "<group>"; };
 		F95B71C61CBBF59810F2D0E7 /* Pods-Recupery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recupery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recupery2/Pods-Recupery2.release.xcconfig"; sourceTree = "<group>"; };
+		FA0EA1329B294EB823B13A11 /* Pods_Recupery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recupery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CD011E5DF67B60A5A9390B /* libPods-Recupery2.a in Frameworks */,
+				CC587EC8526DCEE8A0675AD6 /* Pods_Recupery2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		35F372BDD62D67026E756294 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53834DA5229A7E96C7D93A6D /* libPods-Recupery2.a */,
+				FA0EA1329B294EB823B13A11 /* Pods_Recupery2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

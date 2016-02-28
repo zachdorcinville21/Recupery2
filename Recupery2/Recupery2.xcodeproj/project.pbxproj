@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C7EED1C8276DA00B85DE2 /* CoverScreenViewController.m */; };
 		A53591CC1C8269440014EE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591CB1C8269440014EE5C /* main.m */; };
 		A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591CE1C8269440014EE5C /* AppDelegate.m */; };
 		A53591D21C8269440014EE5C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53591D11C8269440014EE5C /* RootViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		891C7EEC1C8276DA00B85DE2 /* CoverScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverScreenViewController.h; sourceTree = "<group>"; };
+		891C7EED1C8276DA00B85DE2 /* CoverScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverScreenViewController.m; sourceTree = "<group>"; };
 		A53591C71C8269440014EE5C /* Recupery2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recupery2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53591CB1C8269440014EE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A53591CD1C8269440014EE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				A53591DE1C8269440014EE5C /* LaunchScreen.storyboard */,
 				A53591E11C8269450014EE5C /* Info.plist */,
 				A53591CA1C8269440014EE5C /* Supporting Files */,
+				891C7EEC1C8276DA00B85DE2 /* CoverScreenViewController.h */,
+				891C7EED1C8276DA00B85DE2 /* CoverScreenViewController.m */,
 			);
 			path = Recupery2;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				A53591D51C8269440014EE5C /* DataViewController.m in Sources */,
 				A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */,
 				A53591D81C8269440014EE5C /* ModelController.m in Sources */,
+				891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */,
 				A53592081C826D2C0014EE5C /* FXForms.m in Sources */,
 				A53591CC1C8269440014EE5C /* main.m in Sources */,
 				A53591D21C8269440014EE5C /* RootViewController.m in Sources */,
@@ -520,6 +526,7 @@
 				A53591FC1C8269450014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53591FD1C8269450014EE5C /* Build configuration list for PBXNativeTarget "Recupery2Tests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				A53591FF1C8269450014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53592001C8269450014EE5C /* Build configuration list for PBXNativeTarget "Recupery2UITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				A53592021C8269450014EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

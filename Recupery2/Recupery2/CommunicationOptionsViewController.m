@@ -17,10 +17,16 @@
 @implementation CommunicationOptionsViewController
 
 - (void)viewDidLoad {
-[super viewDidLoad];
-    self.circleMenu = [[CircleMenu alloc]initWithFrame:CGRectMake(200, 200, 50, 50) normalIcon:@"icon_menu" selectedIcon:@"icon_close" buttonsCount:4 duration:4 distance:150];
-    [self.view addSubview:self.circleMenu];
-    self.circleMenu.center = self.view.center;
+  [super viewDidLoad];
+  self.view.backgroundColor = [UIColor blackColor];
+  self.circleMenu = [[CircleMenu alloc]initWithFrame:CGRectMake(200, 200, 50, 50)
+                                          normalIcon:@"icon_menu"
+                                        selectedIcon:@"icon_close"
+                                        buttonsCount:4
+                                            duration:4
+                                            distance:150];
+  [self.view addSubview:self.circleMenu];
+  self.circleMenu.center = self.view.center;
 }
 
 - (void)didReceiveMemoryWarning {

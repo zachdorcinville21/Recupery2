@@ -9,7 +9,7 @@
 #import "CommunicationOptionsViewController.h"
 @import CircleMenu;
 
-@interface CommunicationOptionsViewController ()
+@interface CommunicationOptionsViewController ()<CircleMenuDelegate>
 @property (nonatomic) CircleMenu *circleMenu;
 
 @end
@@ -18,30 +18,42 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.view.backgroundColor = [UIColor blackColor];
+  self.view.backgroundColor = [UIColor colorWithRed:0.2 green:0 blue:0.2 alpha:1];
   self.circleMenu = [[CircleMenu alloc]initWithFrame:CGRectMake(200, 200, 50, 50)
                                           normalIcon:@"icon_menu"
                                         selectedIcon:@"icon_close"
                                         buttonsCount:4
-                                            duration:4
+                                            duration:2
                                             distance:150];
   [self.view addSubview:self.circleMenu];
   self.circleMenu.center = self.view.center;
+  self.circleMenu.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)circleMenu:(CircleMenu *)circleMenu
+       willDisplay:(CircleMenuButton *)button
+           atIndex:(NSInteger)atIndex {
+  UIImage *image;
+  switch (atIndex) {
+    case 0:
+      button.backgroundColor = [UIColor colorWithRed:0 green:0.5 blue:0 alpha:1];
+      image = [UIImage imageNamed:@"phone_icon"];
+      break;
+    case 1:
+      button.backgroundColor = [UIColor blueColor];
+      image = [UIImage imageNamed:@"video_icon"];
+      break;
+    case 2:
+      button.backgroundColor = [UIColor redColor];
+      image = [UIImage imageNamed:@"person_icon"];
+      break;
+    case 3:
+      button.backgroundColor = [UIColor orangeColor];
+      image = [UIImage imageNamed:@"text_icon"];
+    default:
+      break;
+  }
+  [button setImage:image forState:UIControlStateNormal];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

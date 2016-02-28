@@ -30,7 +30,7 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSArray *tutorialPages = @[@" Hello There! This is how you use Recupery", @"Step 1: Tell us about yourself by taking our survey", @"Step 2: Create an account!", @"Step 3: Choose your preferred method of communicating with a counselor or peer", @"Step 4: Choose a counselor or peer to interact with!", @"Step 5: Talk with your counselor or peer!", @" Tap next to continue"];
+        NSArray *tutorialPages = @[@" Hello There! This is how you use Recupery", @"Step 1: Tell us about yourself by taking our survey", @"Step 2: Create an account!", @"Step 3: Choose your preferred method of communicating with a counselor or peer", @"Step 4: Choose a counselor or peer to interact with!", @"Step 5: Talk with your counselor or peer!", @" Tap 'Done' to continue"];
         _pageData = tutorialPages;
     }
     return self;

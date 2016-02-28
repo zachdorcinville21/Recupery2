@@ -10,6 +10,7 @@
 #import "FXForms.h"
 
 @interface SurveyForm : NSObject <FXForm>
+@property (nonatomic, copy) NSString *surveyIntro;
 @property (nonatomic, assign) BOOL question1;
 @property (nonatomic, assign) BOOL question2;
 @property (nonatomic, assign) BOOL question3;

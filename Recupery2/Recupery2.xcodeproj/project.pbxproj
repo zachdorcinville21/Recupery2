@@ -21,6 +21,7 @@
 		A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592041C826ADD0014EE5C /* SurveyViewController.m */; };
 		A53592081C826D2C0014EE5C /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = A53592071C826D2C0014EE5C /* FXForms.m */; };
 		A535920B1C8280770014EE5C /* SurveyForm.m in Sources */ = {isa = PBXBuildFile; fileRef = A535920A1C8280770014EE5C /* SurveyForm.m */; };
+		A535920E1C8366FD0014EE5C /* CommunicationOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A535920D1C8366FD0014EE5C /* CommunicationOptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		A53592071C826D2C0014EE5C /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
 		A53592091C8280770014EE5C /* SurveyForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyForm.h; sourceTree = "<group>"; };
 		A535920A1C8280770014EE5C /* SurveyForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyForm.m; sourceTree = "<group>"; };
+		A535920C1C8366FD0014EE5C /* CommunicationOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationOptionsViewController.h; sourceTree = "<group>"; };
+		A535920D1C8366FD0014EE5C /* CommunicationOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationOptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				A53592041C826ADD0014EE5C /* SurveyViewController.m */,
 				A53592091C8280770014EE5C /* SurveyForm.h */,
 				A535920A1C8280770014EE5C /* SurveyForm.m */,
+				A535920C1C8366FD0014EE5C /* CommunicationOptionsViewController.h */,
+				A535920D1C8366FD0014EE5C /* CommunicationOptionsViewController.m */,
 				A53592061C826D230014EE5C /* FXForms.h */,
 				A53592071C826D2C0014EE5C /* FXForms.m */,
 				A53591D31C8269440014EE5C /* DataViewController.h */,
@@ -302,6 +307,7 @@
 			files = (
 				A53592051C826ADD0014EE5C /* SurveyViewController.m in Sources */,
 				A53591D51C8269440014EE5C /* DataViewController.m in Sources */,
+				A535920E1C8366FD0014EE5C /* CommunicationOptionsViewController.m in Sources */,
 				A53591CF1C8269440014EE5C /* AppDelegate.m in Sources */,
 				A53591D81C8269440014EE5C /* ModelController.m in Sources */,
 				891C7EEE1C8276DA00B85DE2 /* CoverScreenViewController.m in Sources */,

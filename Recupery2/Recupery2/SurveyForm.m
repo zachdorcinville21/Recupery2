@@ -11,6 +11,12 @@
 @implementation SurveyForm
 
 #pragma mark - Yes/No questions
+- (NSDictionary *)surveyIntroField {
+    return @{FXFormFieldTitle : @"Please answer the following questions to help us help you!",
+             FXFormFieldType : FXFormFieldTypeLabel,
+             @"textLabel.numberOfLines" : @0
+             };
+}
 
 - (NSDictionary *)question1Field {
     return [self surveyFieldWithTitle:@"1) Do you feel like you're in danger of hurting yourself or others?"];

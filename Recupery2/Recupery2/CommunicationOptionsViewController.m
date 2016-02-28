@@ -80,19 +80,19 @@ typedef NS_ENUM(NSUInteger, CommunicationMethod) {
   switch (atIndex) {
     case CommunicationMethodPhone:
       button.backgroundColor = [UIColor colorWithRed:0 green:0.5 blue:0 alpha:1];
-      image = [UIImage imageNamed:@"phone_icon"];
+      image = [UIImage imageNamed:@"phone_page"];
       break;
     case CommunicationMethodVideo:
       button.backgroundColor = [UIColor blueColor];
-      image = [UIImage imageNamed:@"video_icon"];
+      image = [UIImage imageNamed:@"video_page"];
       break;
     case CommunicationMethodPerson:
       button.backgroundColor = [UIColor redColor];
-      image = [UIImage imageNamed:@"person_icon"];
+      image = [UIImage imageNamed:@"phone_page"]; // not real image
       break;
     case CommunicationMethodText:
       button.backgroundColor = [UIColor orangeColor];
-      image = [UIImage imageNamed:@"text_icon"];
+      image = [UIImage imageNamed:@"phone_page"]; // not real image
     default:
       break;
   }

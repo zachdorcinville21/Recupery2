@@ -13,6 +13,6 @@
 @property (nonatomic, assign) BOOL question1;
 @property (nonatomic, assign) BOOL question2;
 @property (nonatomic, assign) BOOL question3;
-
+@property (nonatomic, copy) NSString *other;
 
 @end

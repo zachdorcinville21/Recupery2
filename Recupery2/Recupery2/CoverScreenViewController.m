@@ -23,49 +23,26 @@
     self.scrollView = [[UIScrollView alloc]init];
     self.scrollView.frame = self.view.frame;
     [self.view addSubview:self.scrollView];
+
     self.coverPage = [[UIImageView alloc] initWithImage: [UIImage imageNamed:@"cover_image"]];
     self.coverPage.frame = self.view.frame;
     [self.scrollView addSubview: self.coverPage];
+
     self.nameTextField = [[UITextField alloc]init];
     self.nameTextField.frame = CGRectMake(220, 470, 150, 50);
     [self.scrollView addSubview: self.nameTextField];
-    self.nameTextField.backgroundColor = [UIColor whiteColor];
-    self.scrollView.contentSize = self.coverPage.frame.size;
+    self.nameTextField.backgroundColor = [UIColor clearColor];
+  self.nameTextField.textColor = [UIColor whiteColor];
+
     self.nameTextField.delegate = self;
     self.coverButton = [[UIButton alloc]init];
     self.coverButton.frame = CGRectMake(105, 550, 160, 50);
     [self.scrollView addSubview: self.coverButton];
-    self.coverButton.backgroundColor = [UIColor blackColor];
+    self.coverButton.backgroundColor = [UIColor clearColor];
     [self.coverButton addTarget:self action:@selector(buttonWasTapped) forControlEvents:UIControlEventTouchUpInside];
-    
-}
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    // register for keyboard notifications
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardWillShow)
-                                                 name:UIKeyboardWillShowNotification
-                                               object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardWillHide)
-                                                 name:UIKeyboardWillHideNotification
-                                               object:nil];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    // unregister for keyboard notifications while not visible.
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:UIKeyboardWillShowNotification
-                                                  object:nil];
-    
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:UIKeyboardWillHideNotification
-                                                  object:nil];
+    self.scrollView.contentSize = self.coverPage.frame.size;
+  [self registerForKeyboardNotifications];
 }
 
 - (void)buttonWasTapped {
@@ -78,66 +55,44 @@
     // Dispose of any resources that can be recreated.
 }
 
-#define kOFFSET_FOR_KEYBOARD 80.0
-
--(void)keyboardWillShow {
-    // Animate the current view out of the way
-    if (self.view.frame.origin.y >= 0)
-    {
-        [self setViewMovedUp:YES];
-    }
-    else if (self.view.frame.origin.y < 0)
-    {
-        [self setViewMovedUp:NO];
-    }
-}
-
--(void)keyboardWillHide {
-    if (self.view.frame.origin.y >= 0)
-    {
-        [self setViewMovedUp:YES];
-    }
-    else if (self.view.frame.origin.y < 0)
-    {
-        [self setViewMovedUp:NO];
-    }
-}
-
--(void)textFieldDidBeginEditing:(UITextField *)sender
+// Call this method somewhere in your view controller setup code.
+- (void)registerForKeyboardNotifications
 {
-    if ([sender isEqual:self.nameTextField])
-    {
-        //move the main view, so that the keyboard does not hide it.
-        if  (self.view.frame.origin.y >= 0)
-        {
-            [self setViewMovedUp:YES];
-        }
-    }
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(keyboardWasShown:)
+                                               name:UIKeyboardDidShowNotification object:nil];
+
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(keyboardWillBeHidden:)
+                                               name:UIKeyboardWillHideNotification object:nil];
+
 }
 
-//method to move the view up/down whenever the keyboard is shown/dismissed
--(void)setViewMovedUp:(BOOL)movedUp
+// Called when the UIKeyboardDidShowNotification is sent.
+- (void)keyboardWasShown:(NSNotification*)aNotification
 {
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3]; // if you want to slide up the view
-    
-    CGRect rect = self.view.frame;
-    if (movedUp)
-    {
-        // 1. move the view's origin up so that the text field that will be hidden come above the keyboard
-        // 2. increase the size of the view so that the area behind the keyboard is covered up.
-        rect.origin.y -= kOFFSET_FOR_KEYBOARD;
-        rect.size.height += kOFFSET_FOR_KEYBOARD;
-    }
-    else
-    {
-        // revert back to the normal state.
-        rect.origin.y += kOFFSET_FOR_KEYBOARD;
-        rect.size.height -= kOFFSET_FOR_KEYBOARD;
-    }
-    self.view.frame = rect;
-    
-    [UIView commitAnimations];
+  NSDictionary* info = [aNotification userInfo];
+  CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+
+  UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height, 0.0);
+  self.scrollView.contentInset = contentInsets;
+  self.scrollView.scrollIndicatorInsets = contentInsets;
+
+  // If active text field is hidden by keyboard, scroll it so it's visible
+  // Your app might not need or want this behavior.
+  CGRect aRect = self.view.frame;
+  aRect.size.height -= kbSize.height;
+  if (!CGRectContainsPoint(aRect, self.nameTextField.frame.origin) ) {
+    [self.scrollView scrollRectToVisible:self.nameTextField.frame animated:YES];
+  }
+}
+
+// Called when the UIKeyboardWillHideNotification is sent
+- (void)keyboardWillBeHidden:(NSNotification*)aNotification
+{
+  UIEdgeInsets contentInsets = UIEdgeInsetsZero;
+  self.scrollView.contentInset = contentInsets;
+  self.scrollView.scrollIndicatorInsets = contentInsets;
 }
 
 

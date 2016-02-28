@@ -88,11 +88,11 @@ typedef NS_ENUM(NSUInteger, CommunicationMethod) {
       break;
     case CommunicationMethodPerson:
       button.backgroundColor = [UIColor redColor];
-      image = [UIImage imageNamed:@"phone_page"]; // not real image
+      image = [UIImage imageNamed:@"video_page"]; // not real image, using video as placeholder
       break;
     case CommunicationMethodText:
       button.backgroundColor = [UIColor orangeColor];
-      image = [UIImage imageNamed:@"phone_page"]; // not real image
+      image = [UIImage imageNamed:@"text_page"];
     default:
       break;
   }

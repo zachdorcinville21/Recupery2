@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2203E0FCAD0D41ED26BDC5A0A369DEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E5B5FE1317BEFBFB7414CC0F86D82CF1 /* Pods-Recupery2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327C3549E39241739B5237B43F6EE9A3 /* Pods-Recupery2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49C2187CCB8AD2CC5FED5BDF069E1B7E /* Pods-Recupery2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recupery2-resources.sh"; sourceTree = "<group>"; };
+		538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.debug.xcconfig"; sourceTree = "<group>"; };
+		73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recupery2.release.xcconfig"; sourceTree = "<group>"; };
+		9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recupery2-dummy.m"; sourceTree = "<group>"; };
+		A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Recupery2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED62C9DF1067FDCC8C57F7225D517AF8 /* Pods-Recupery2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recupery2-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9FC915793231318FC30E86A09D6E49C /* Pods-Recupery2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recupery2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB3F80A63A98E62F429AD97391A3FB0C /* LayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LayerKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DF1C3B7CDE1168E549202D787F045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2203E0FCAD0D41ED26BDC5A0A369DEBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26444AB006DCFD64CD1FE9E2342A70C7 /* Pods-Recupery2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC915793231318FC30E86A09D6E49C /* Pods-Recupery2-acknowledgements.markdown */,
+				ED62C9DF1067FDCC8C57F7225D517AF8 /* Pods-Recupery2-acknowledgements.plist */,
+				9B0331ABFC31DCD9E8278A9EBC5F65BE /* Pods-Recupery2-dummy.m */,
+				327C3549E39241739B5237B43F6EE9A3 /* Pods-Recupery2-frameworks.sh */,
+				49C2187CCB8AD2CC5FED5BDF069E1B7E /* Pods-Recupery2-resources.sh */,
+				538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */,
+				73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */,
+			);
+			name = "Pods-Recupery2";
+			path = "Target Support Files/Pods-Recupery2";
+			sourceTree = "<group>";
+		};
+		637127439E719DF025B29226BD8E9783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB3F80A63A98E62F429AD97391A3FB0C /* LayerKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AEE6EBA4161F8AB5E29BF1AB57B838C1 /* Pods */,
+				99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */,
+				CBA2C99BFA82BA48CBD4BF0FAE45119F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4D6E24DFAE38CEEEEE31D489781096 /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				637127439E719DF025B29226BD8E9783 /* Frameworks */,
+			);
+			path = LayerKit;
+			sourceTree = "<group>";
+		};
+		AEE6EBA4161F8AB5E29BF1AB57B838C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4D6E24DFAE38CEEEEE31D489781096 /* LayerKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBA2C99BFA82BA48CBD4BF0FAE45119F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26444AB006DCFD64CD1FE9E2342A70C7 /* Pods-Recupery2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BE594CA614EACF0141E5465D33FD7D8 /* Pods-Recupery2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836BED77BF6B1A8BE46CD351B52845ED /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */;
+			buildPhases = (
+				548117EB04B5E7560E1E15CEF7E4810A /* Sources */,
+				07DF1C3B7CDE1168E549202D787F045E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Recupery2";
+			productName = "Pods-Recupery2";
+			productReference = A7F34DE45E33EAD66C85652F9F1AC6AA /* libPods-Recupery2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99B9AB279CB72EFF02ACF5257DC4D9C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BE594CA614EACF0141E5465D33FD7D8 /* Pods-Recupery2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548117EB04B5E7560E1E15CEF7E4810A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B5FE1317BEFBFB7414CC0F86D82CF1 /* Pods-Recupery2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C4DD7331CDEA68E7CBA166AECD1D650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B249F2A1BEBFA2ECD2879BF77A7DDC /* Pods-Recupery2.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D008E6D08CF501C89DEA87876AA7F6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538EB3ACB416F80713DF993693C99F22 /* Pods-Recupery2.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836BED77BF6B1A8BE46CD351B52845ED /* Build configuration list for PBXNativeTarget "Pods-Recupery2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D008E6D08CF501C89DEA87876AA7F6F7 /* Debug */,
+				6C4DD7331CDEA68E7CBA166AECD1D650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

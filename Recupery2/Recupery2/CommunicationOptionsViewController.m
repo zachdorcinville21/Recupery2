@@ -11,7 +11,7 @@
 
 @interface CommunicationOptionsViewController ()<CircleMenuDelegate>
 @property (nonatomic) CircleMenu *circleMenu;
-
+@property(nonatomic) UILabel *communicationLabel;
 @end
 
 @implementation CommunicationOptionsViewController
@@ -28,6 +28,15 @@
   [self.view addSubview:self.circleMenu];
   self.circleMenu.center = self.view.center;
   self.circleMenu.delegate = self;
+
+  self.communicationLabel = [[UILabel alloc] init];
+  self.communicationLabel.textColor = [UIColor whiteColor];
+  self.communicationLabel.text = @"What is your preferred method of communication?";
+  self.communicationLabel.frame = CGRectMake(100, 100, 350, 200);
+  self.communicationLabel.textAlignment = NSTextAlignmentCenter;
+  self.communicationLabel.center = CGPointMake(self.view.center.x, 130);
+  self.communicationLabel.numberOfLines = 0;
+  [self.view addSubview:self.communicationLabel];
 }
 
 - (void)circleMenu:(CircleMenu *)circleMenu
